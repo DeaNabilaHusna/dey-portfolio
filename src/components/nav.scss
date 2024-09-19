@@ -1,0 +1,33 @@
+@import "../css/variables";
+nav ul {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+nav li {
+  margin: 0 2rem;
+}
+nav a {
+  text-align: center;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: $primary-color;
+  text-decoration: none;
+  position: relative;
+}
+
+nav a::before {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: $primary-color;
+  transition: all .5s;
+  content: '';
+}
+
+nav a:hover::before {
+  width: 100%;
+}

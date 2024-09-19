@@ -1,0 +1,15 @@
+@import "../css/variables";
+section .hero{
+  background-color: $secondary-color;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  padding: 2rem;
+  line-height: 2rem;
+}

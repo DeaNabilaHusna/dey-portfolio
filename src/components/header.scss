@@ -1,0 +1,19 @@
+header {
+  // position: fixed;
+  // z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem 1rem 3rem;
+}
+
+header div {
+  align-items: center;
+  display: flex;
+}
+
+header img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
