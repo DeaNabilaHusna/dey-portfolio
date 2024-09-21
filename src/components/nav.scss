@@ -1,13 +1,46 @@
 @import "../css/variables";
+
+nav {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav ul {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
 }
+
 nav li {
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
-nav a {
+
+nav .social ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .social ul li {
+  margin: 0 0.2rem;
+  border: solid 2px $primary-color;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+nav .social a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav a {
   text-align: center;
   font-size: larger;
   font-weight: 600;
@@ -17,17 +50,34 @@ nav a {
   position: relative;
 }
 
-nav a::before {
+nav .nav a::before {
   position: absolute;
   bottom: -10px;
   left: 0;
   width: 0;
   height: 3px;
   background-color: $primary-color;
-  transition: all .5s;
-  content: '';
+  transition: all 0.5s;
+  content: "";
 }
 
-nav a:hover::before {
+nav .nav a:hover::before {
   width: 100%;
+  transition: width 0.5s ease; 
+}
+
+nav .social ul li:hover {
+  border-color: $primary-color; 
+  background-color: $primary-color;
+}
+
+nav .social ul li svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: fill 0.7s ease; 
+}
+
+nav .social ul li:hover svg path {
+  fill: $secondary-color; 
+  transition: fill 0.7s ease;
 }

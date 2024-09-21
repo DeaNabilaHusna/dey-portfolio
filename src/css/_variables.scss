@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 // color variables
 $primary-color: #001A40;
-$secondary-color: #F9F6EE;
+$secondary-color: #FFFEFA;
+$light-color: #DCD0C1;
 $danger-color: #dc3545;
 $warning-color: #ffc107;
 $success-color: #198754;
@@ -10,4 +12,5 @@ $text-color: #0C0404;
 
 // font variables
 $font-family: 'Inconsolata', monospace;
+$font-family2: 'Pacifico', cursive;
 $font-size-base: 1rem;
