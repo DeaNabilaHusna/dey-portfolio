@@ -7,7 +7,7 @@ export default function Header() {
         <header>
             <div>
             <img src={Miffy} alt="miffy"/>
-            <h1>Deyy</h1>
+            <h1>Deyy Porto</h1>
             </div>
             <Nav />
         </header>
