@@ -1,5 +1,5 @@
 import Flowers from "./Flowers";
-import Miffy from "../assets/miffy_holding_flower.png";
+import Deyy from "../assets/deyy_ilustration.svg";
 import "./hero.scss";
 import "../css/main.scss";
 
@@ -26,7 +26,7 @@ export default function Hero() {
           </div>
         </div>
         <div>
-          <img src={Miffy} alt="" />
+          <img src={Deyy} alt="" />
         </div>
       </div>
     </section>

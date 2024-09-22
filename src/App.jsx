@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './css/main.scss'
 import Header from './components/Header'
-import Hero from './components/Hero'
 import Skills from './components/Skills'
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
   return (
     <div className="App">
      <Header />
-     <Hero />
      <Skills />
     </div>
   )

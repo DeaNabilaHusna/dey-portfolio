@@ -5,7 +5,7 @@ import "./flowers.scss";
 export default function Flowers() {
   return (
     <>
-    <div className="set">
+    {/* <div className="set">
       <div><img src={Flower} alt="" /></div>
       <div><img src={Flower} alt="" /></div>
       <div><img src={Flower} alt="" /></div>
@@ -24,7 +24,7 @@ export default function Flowers() {
       <div><img src={Flower} alt="" /></div>
       <div><img src={Flower} alt="" /></div>
       <div><img src={Flower} alt="" /></div>
-    </div>
+    </div> */}
     </>
     
   );
